@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    
+    {% block head %}
+    <title>Gym Mansger</title>
+    {% endblock %}
+    <link rel="stylesheet" href="/estilo.css">
+</head>
+<body>
+    <header>
+        <div class="links">
+            <a href="/instructors">Instructores</a>
+            <a href="/members">Members</a>
+        </div>
+    </header>
+    {% block content %}{% endblock %}
+    <script src="/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+{
+  "members": [
+    {
+      "id": 1,
+      "avatar_url": "https://images.unsplash.com/photo-1535743686920-55e4145369b9?ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80",
+      "name": "vinicius",
+      "email": "viny_m_r_F_santos@hotmail.com",
+      "birth": 651974400000,
+      "gender": "M",
+      "blood": "B-",
+      "weight": "80",
+      "height": "188"
+    },
+    {
+      "id": 2,
+      "avatar_url": "https://images.unsplash.com/photo-1544133782-b62779394064?ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+      "name": "Vinicius monteiro",
+      "email": "vinicius@yahoo.com",
+      "birth": 917654400000,
+      "gender": "M",
+      "blood": "A+",
+      "weight": "89",
+      "height": "185"
+    }
+  ],
+  "instructors": [
+    {
+      "id": 4,
+      "avatar_url": "https://images.unsplash.com/photo-1434682705430-390b9de53750?ixlib=rb-1.2.1&auto=format&fit=crop&w=694&q=80",
+      "name": "vinicius",
+      "birth": 949449600000,
+      "gender": "M",
+      "services": "musculaçao,crossfit",
+      "created_at": 1583679237153
+    },
+    {
+      "id": 2,
+      "avatar_url": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
+      "name": "marilda",
+      "birth": 51494400000,
+      "gender": "F",
+      "services": "natação",
+      "created_at": 1584367704830
+    },
+    {
+      "id": 3,
+      "avatar_url": "https://images.unsplash.com/photo-1562771242-a02d9090c90c?ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80",
+      "name": "Vinicius monteiro",
+      "birth": 651974400000,
+      "gender": "M",
+      "services": "musculaçao,crossfit,natação",
+      "created_at": 1584367894256
+    }
+  ]
+}
