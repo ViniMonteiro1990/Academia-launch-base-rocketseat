@@ -1,7 +1,7 @@
 const express = require('express')
 const routes = express.Router()
-const instructors = require('./constrollers/instructors')//sempre colocar o require para puxar o arquivo
-const members = require('./constrollers/members')//sempre colocar o require para puxar o arquivo
+const instructors = require('./app/constrollers/instructors')//sempre colocar o require para puxar o arquivo
+const members = require('./app/constrollers/members')//sempre colocar o require para puxar o arquivo
 
 routes.get('/',function(req,res){
     return res.redirect('/instructors')
