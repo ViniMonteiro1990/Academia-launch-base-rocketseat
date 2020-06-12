@@ -3,7 +3,19 @@
 {% block content %}
 
     <div class="card table-container">
-        <a href="/members/create">Novo</a>
+
+        <div class="header">
+            <a class="button" href="/members/create">Novo</a>
+
+            <!--para filtrar por um nome e etc e o filtro ficar na tela value= {filter} -->
+            <form action="/members" method="GET">
+                <input type="text" name="filter" value="{{filter}}" placeholder="Nome ou email">
+                <button type="submit">Filtrar</button>
+
+            </form>
+        
+        </div>
+        
         <table width = "100%">
             <thead>
                 <th>Membro</th>
@@ -28,5 +40,11 @@
             {% endfor %}
             </tbody>
         </table>
+   
+        <div class="pagination"
+            data-page={{pagination.page}}
+            data-total={{pagination.total}}
+            data-filter = {{filter}}
+        ></div>
     </div>
 {% endblock content %}

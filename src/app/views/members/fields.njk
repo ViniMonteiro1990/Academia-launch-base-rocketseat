@@ -131,8 +131,20 @@
         >                
     </div>
 </div>
-
-
+<div class="item">
+<div>Instructor</div>
+    <div>
+        <select name="instructor">
+        {% for instructor in instructorOptions %}
+        <!-- para pegar o valor do select/option tenho q colocar o msm value e testo cada opcao se for manter selecionado com o selected !-->
+            <option value="{{instructor.id}}"
+            {% if member.instructor == "instructor.id"%}selected{%endif%}>                
+                {{instructor.name}}
+            </option>
+        {% endfor %}
+        </select>
+    </div>
+</div>
 
 
 <button type="submit">Salvar</button>
